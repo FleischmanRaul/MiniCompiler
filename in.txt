@@ -1,0 +1,18 @@
+func
+    num a=0;
+    num b=13;
+    num c=12;
+    while(a<10)
+        if(a>5 & b==13)
+            speak a;
+            speak;
+        else
+            speak c;
+            speak;
+        endif
+        a = a+1;
+    endwhile
+    if(b == 13)
+        speak b;
+    endif
+endfunc
